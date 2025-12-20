@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: "Press Start 2P", cursive;
+  --color-pixel-bg: #202020;
+  --color-pixel-border: #ffffff;
+  --shadow-pixel: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white font-pixel antialiased;
+    image-rendering: pixelated;
+  }
+}
+
+@layer components {
+  .pixel-border {
+    @apply border-4 border-white shadow-pixel;
+  }
+
+  .pixel-btn {
+    @apply px-4 py-2 bg-blue-600 border-2 border-white hover:bg-blue-500 active:translate-y-1 active:shadow-none transition-all;
+  }
+}
