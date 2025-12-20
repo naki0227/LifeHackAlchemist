@@ -1,101 +1,111 @@
-# Lifehack Alchemist - Science of Everyday Life 🔬
+# Lifehack Alchemist (ライフハック・アルケミスト) 🧪
 
 <p align="center">
-  <b>「科学の視点で日常を解読する、知的エンターテインメント」</b><br>
-  Decoding Everyday Mysteries with Science.
+  <b>「その『生活魔法』、科学で使えば大量破壊兵器。」</b><br>
+  Pixel Art Science Synthesis RPG powered by Gemini 2.5
 </p>
 
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
-![Framework](https://img.shields.io/badge/framework-React%20%2B%20Vite-blue)
+![Status](https://img.shields.io/badge/status-planning-yellow)
+![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Mobile-blue)
 
 ---
 
 ## 📖 概要 (Overview)
 
-**Lifehack Alchemist** は、「なぜコーヒーで目が覚めるのか？」「なぜ満月の夜は眠れないのか？」といった日常の些細な疑問に対し、**科学論文に基づいた信頼性の高い解説** を提供するWebアプリケーションです。
-Gemini AIを活用し、難しい論文の内容を「誰にでもわかる言葉」に翻訳。ただ読むだけでなく、家庭でできる実験レシピやクイズを通じて、科学的思考力を養います。
+**Lifehack Alchemist** は、「生活魔法」しか使えない落ちこぼれ主人公が、現代科学の知識（ライフハック）を駆使して異世界を無双する **"Stealth Education" (ステルス教育) RPG** です。
 
-## ✨ Features
+プレイヤーは「勉強させられている」と感じることなく、ゲームプレイを通じて物理法則や化学反応の面白さに没頭します。
+Google Gemini API がプレイヤーの自由な「素材」×「魔法」×「条件」の組み合わせを解析し、科学的に正しい現象をリアルタイムにシミュレートします。
 
-### 1. 🔍 Science Search (なぜなに検索)
-* 日常の疑問を入力すると、関連する科学的メカニズムを解説。
-* 「ドーパミン」「コルチゾール」といった専門用語も、分かりやすい例え話で説明します。
-
-### 2. 🧪 Experiments at Home (実験レシピ)
-* 特別な器具を使わず、キッチンにあるものだけでできる科学実験を紹介。
-* 夏休みの自由研究や、大人の知的好奇心を満たすアクティビティとして最適です。
-
-### 3. 🧠 Daily Science (今日のサイエンス)
-* 毎日1つ、驚きの科学トリビアを配信。
-* 「へぇ〜」で終わらせず、明日から使えるライフハックとして提案します。
+### 🗺 ストーリー
+舞台は属性魔法が至高とされる中世ファンタジー世界。現代日本から転生した主人公は、攻撃魔法が一切使えない「生活魔法（着火・洗浄・乾燥・注水）」しか使えない落ちこぼれだった。
+しかし、彼は知っていた。「洗浄」でウランを濃縮し、「着火」で粉塵爆発を起こせることを……。
+これは、科学の知識で常識を覆す、下剋上の物語。
 
 ---
 
-## 🛠 Tech Stack
+## 🎮 ゲームループ (Core Loop)
+
+1.  **素材収集 (Scavenge):** ダンジョンで「ゴミ」や「ありふれた素材」を拾う。
+2.  **科学合成 (Synthesize):** 素材に対し、適切な「生活魔法」と「条件（密閉・圧縮など）」を組み合わせる。
+3.  **AI判定 (AI Judge):** Gemini 2.5 が組み合わせを解析し、科学的に正しい現象（爆発、凍結、生成物など）をシミュレート。
+4.  **図鑑埋め (Discovery):** 新たな現象を発見し、世界（と物理法則）を解き明かす。
+
+---
+
+## ✨ 特徴 (Key Features)
+
+### 1. ⚛️ Generative Physics Engine
+決まった「正解」はありません。プレイヤーが思いついた実験（例：小麦粉＋密閉空間＋着火魔法）をLLMが物理法則に基づいて判定。「粉塵爆発」などの結果をダイナミックに生成します。
+
+### 2. 👾 Pixel Art World
+16-bit レトロピクセルアート（SFC風）の懐かしくも温かい世界観。その裏で、Geminiによる超リアルで冷徹な科学テキストが流れるギャップ体験を提供します。
+
+### 3. 🚫 No Lecture, Just Action
+教科書的な解説テキストは一切なし。プレイヤーは実験の「結果」を見て、「なぜこうなったのか？」を自ら推論し、次の実験に活かすことで自然と科学的思考を身につけます。
+
+---
+
+## 🛠 技術スタック (Tech Stack)
 
 | Category | Technology | Usage |
 | :--- | :--- | :--- |
-| **Frontend** | **React + Vite** | Fast SPA Development |
-| **Language** | **TypeScript** | Type Safety |
-| **Styling** | **Tailwind CSS** | Utility-first Styling |
-| **AI** | **Google Gemini 1.5** | Content Generation & Simplification |
-| **State** | **Zustand** | Lightweight State Management |
+| **Frontend** | **React + Vite** | High-performance Web UI |
+| **Language** | **TypeScript** | Type-safe logic |
+| **Data/AI** | **Google Gemini 2.5 Flash** | Physics Simulation & Flavor Text |
+| **Styling** | **Tailwind CSS** | Pixel Art Theme & Layout |
+| **Build** | **Capacitor** | Native Mobile App Wrapper (Planned) |
+| **Deploy** | **Vercel** | CI/CD & Hosting |
 
 ---
 
-## 🏗️ Architecture
-
-```mermaid
-graph TD
-    User["🧑‍🔬 User"]
-    
-    subgraph "Frontend (React)"
-        Search["🔍 Search UI"]
-        Content["📝 Article Renderer"]
-        Exp["🧪 Experiment Guide"]
-    end
-    
-    subgraph "AI Brain"
-        Gemini["✨ Google Gemini API"]
-    end
-    
-    subgraph "Data Source"
-        Papers["📚 Academic Papers\n(Simulated)"]
-    end
-
-    User -->|Question| Search
-    Search -->|Query| Gemini
-    Gemini -->|Fetch Knowledge| Papers
-    Gemini -->|Simplified Explanation| Content
-    Content -->|Display| User
-    
-    User -->|Select Experiment| Exp
-    Exp -->|Step guide| User
-```
-
-## 📁 Project Structure
+## 📂 ディレクトリ構成 (Structure)
 
 ```
-lifehackAlchemist/
+lifehack-alchemist/
 ├── src/
-│   ├── App.tsx          # Main app component
-│   ├── components/      # Reusable components
-│   ├── pages/           # Page components
-│   └── lib/             # Utilities
-├── public/              # Static assets
-└── index.html
+│   ├── components/      # UIパーツ (RetroPixelUI)
+│   ├── hooks/           # useGeminiClient (API通信)
+│   ├── assets/          # ピクセルアート画像 (Background, Icons)
+│   └── types/           # ゲーム内型定義
+├── public/              # 静的アセット
+└── .env                 # APIキー管理
 ```
-
-## 🔗 Related Projects
-
-Part of the [Enludus](https://enludus.vercel.app/) ecosystem.
-
-## 📄 License
-
-MIT
 
 ---
 
-<p align="center">
-© 2025 Enludus. All rights reserved.
+## 🚀 セットアップ (Getting Started)
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/naki0227/LifeHackAlchemist.git
+   cd lifehack-alchemist
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**
+   Create `.env` file:
+   ```env
+   VITE_GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. **Run Dev Server**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 👨‍💻 開発者 (Developer)
+**Enludus**
+
+Focus: Gamification & EdTech
+Contact: <https://enludus.vercel.app>
+
+<p align="center"> 
+    © 2025 Lifehack Alchemist Project. All rights reserved. 
 </p>
