@@ -104,7 +104,7 @@ lifehack-alchemist/
 **Enludus**
 
 Focus: Gamification & EdTech
-Contact: https://enludus.vercel.app
+Contact: https://enludus.com
 
 <p align="center"> 
     © 2025 Lifehack Alchemist Project. All rights reserved. 
